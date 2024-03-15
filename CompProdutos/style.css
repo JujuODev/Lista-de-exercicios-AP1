@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.imgTabela{
+    width: 100px;
+}
+
+body{
+    text-align: center;
+}
+
+table, td, th{
+    border: solid rgb(0, 153, 255) 2px;
+}
