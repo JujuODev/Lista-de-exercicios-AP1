@@ -1,16 +1,66 @@
+/*
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+*/
+
 *{
     padding: 0px;
     margin: 0px;
 }
 
+.ponta{
+    width: 150px;
+}
+
 .imgTabela{
-    width: 100px;
+    width: 120px;
+}
+
+.text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.indice{
+    font-family: "DM Serif Display", serif;
+}
+
+h1{
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 40px;
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    background-color:#FFF;
+    /* Apredido no site: https://for-styles.blogspot.com/2012/05/efeito-de-arco-iris-em-texto-criado-com.html */
+    background-image: -webkit-linear-gradient(left,#ea8711,#d96363,#73a6df,#9085fb,#52ca79);
+}
+
+h2{
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://th.bing.com/th?id=OIP.PFGEkCYmF_lEEouDID9mtwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2);
 }
 
 body{
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
     text-align: center;
+    display: grid;
+    grid-template-rows: 30% 1fr;
 }
 
-table, td, th{
+main{
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+table{
+    display: inline-block;
+    vertical-align: middle;
+    border: solid rgb(0, 153, 255) 2px;
+}
+
+td, th{
     border: solid rgb(0, 153, 255) 2px;
 }
