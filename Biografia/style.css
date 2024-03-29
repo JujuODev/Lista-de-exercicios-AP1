@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 5px 5px 0px 5px;
+}
+
+body{
+    background-image: url(Img/fundo-azul.avif);
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: cover;
+}
+
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-size: 90px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left,#ea8711,#d96363,#09203a,#1c05f3,#247e42);
+}
+
+.perfil{
+    border: #247e42 dotted 1px;
+    width: 100px;
+    border-radius: 80px;
+}
+
+.secao{
+    margin: 25px 0px 15px 0px;
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: justify;
+}
+
+.menu{
+    /* text-decoration: none; */
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: rebeccapurple;
+}
+
+.imgtexto{
+    border: #1c05f3 dashed 1px;
+    width: 150px;
+    float: right;
+    margin-right: 10px;
+}

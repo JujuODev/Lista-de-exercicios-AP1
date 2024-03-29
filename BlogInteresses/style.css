@@ -1,0 +1,25 @@
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: gainsboro;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    color: rgb(196, 32, 32);
+    line-height: 100px;
+    background-color: grey;
+}
+
+.posts{
+    
+}
