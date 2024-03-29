@@ -1,12 +1,11 @@
 *{
     margin: 0px 0px 0px 0px;
-    padding: 0px;
+    padding: 0px 3px 0px 3px;
 }
 
 header{
     height: 100px;
     width: 100%;
-    background-color: gainsboro;
 }
 
 h1{
@@ -20,6 +19,46 @@ h1{
     background-color: grey;
 }
 
+ol{
+    margin-left: 15px;
+}
+
+a img{
+    border-radius: 20px;
+}
+
 .posts{
-    
+    background-color: aliceblue;
+    display: flexbox;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.postrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px 5px 10px 5px;
+}
+
+.postrow1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    row-gap: 30px;
+    list-style-type: upper-roman;
+}
+
+.ulgrid{
+    display: grid;
+    grid-template-columns: 20% 20%;
+}
+
+.listas{
+    background-color: rgb(228, 241, 253);
+}
+
+#title2{
+    text-align: center;
+    color: rgb(63, 63, 240);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
